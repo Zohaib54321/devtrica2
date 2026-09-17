@@ -1,0 +1,57 @@
+# ============================================================
+# robots.txt — Devtrica AI Agency
+# https://devtricaaislotutions.com
+# ============================================================
+
+User-agent: *
+Allow: /
+Disallow: /assets/tmp/
+Disallow: /*?s=
+
+# Search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# AI crawlers — allowed so the brand can appear in AI answers.
+# Change Allow to Disallow if you ever want to opt out.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Block resource-wasting scrapers
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Disallow: /
+
+Sitemap: https://devtricaaislotutions.com/sitemap.xml
